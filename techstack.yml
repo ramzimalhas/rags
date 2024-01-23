@@ -1,0 +1,221 @@
+repo_name: ramzimalhas/rags
+report_id: ffd001c960a2ec2dd2cf53d9704529c0
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-23T07:00:48+00:00'
+requested_by: jerryjliu
+provider: github
+branch: main
+detected_tools_count: 14
+tools:
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/ramzimalhas/rags
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ramzimalhas/rags
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/ramzimalhas/rags/blob/main/.github/workflows/lint.yml
+  detection_source: ".github/workflows/lint.yml"
+  last_updated_by: Jerry Liu
+  last_updated_on: 2023-11-26 09:27:44.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/ramzimalhas/rags/blob/main/pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: Jerry Liu
+  last_updated_on: 2023-11-26 09:27:44.000000000 Z
+- name: LLaMA
+  description: A foundational, 65-billion-parameter large language model (By Facebook)
+  website_url: https://ai.meta.com/blog/large-language-model-llama-meta-ai/
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Models
+  image_url: https://img.stackshare.io/service/101870/default_110df704ee9867cb49e02a51b680222cc0b61823.png
+  detection_source_url: https://github.com/ramzimalhas/rags/blob/main/pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: Jerry Liu
+  last_updated_on: 2023-11-26 09:27:44.000000000 Z
+- name: LangChain
+  description: Build AI apps with LLMs through composability
+  website_url: https://github.com/hwchase17/langchain
+  version: 0.0.305
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source_url: https://github.com/ramzimalhas/rags/blob/main/pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: Jerry Liu
+  last_updated_on: 2023-11-26 09:27:44.000000000 Z
+- name: LlamaIndex
+  description: A central interface to connect your LLMs with external data
+  website_url: https://gpt-index.readthedocs.io/en/latest/
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/48791/default_350cf2fa84700345e34d9eef2ecc1aa29319e91a.jpg
+  detection_source_url: https://github.com/ramzimalhas/rags/blob/main/pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: Jerry Liu
+  last_updated_on: 2023-11-26 09:27:44.000000000 Z
+- name: Streamlit
+  description: A Python app framework built specifically for Machine Learning and
+    Data Science teams
+  website_url: https://streamlit.io
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Machine Learning Tools
+  image_url: https://img.stackshare.io/service/11393/default_67e251b5860795095fe91618cf3ef8d09257469a.png
+  detection_source_url: https://github.com/ramzimalhas/rags/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Anoop Sharma
+  last_updated_on: 2023-11-24 08:21:12.000000000 Z
+- name: black
+  description: The uncompromising code formatter
+  package_url: https://pypi.org/project/black
+  version: 22.12.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20099/default_029b9bbfb6be2cd34bebeda5b8e1e80a1d22441c.png
+  detection_source_url: https://github.com/ramzimalhas/rags/blob/main/pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: Jerry Liu
+  last_updated_on: 2023-11-26 09:27:44.000000000 Z
+- name: isort
+  description: A Python utility / library to sort Python imports
+  package_url: https://pypi.org/project/isort
+  version: 5.11.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20117/default_9cf91bfbbfb266fc12a914cdc09d9e4b55c773bb.png
+  detection_source_url: https://github.com/ramzimalhas/rags/blob/main/pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: Jerry Liu
+  last_updated_on: 2023-11-26 09:27:44.000000000 Z
+- name: langchain
+  description: Building applications with LLMs through composability
+  package_url: https://pypi.org/project/langchain
+  version: 0.0.305
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ramzimalhas/rags/blob/main/pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: Jerry Liu
+  last_updated_on: 2023-11-26 09:27:44.000000000 Z
+  vulnerabilities:
+  - name: LangChain vulnerable to arbitrary code execution
+    cve_id: CVE-2023-39659
+    cve_url: https://github.com/advisories/GHSA-prgp-w7vf-ch62
+    detected_date: Dec 8
+    severity: critical
+    first_patched: 0.0.325
+  - name: langchain vulnerable to arbitrary code execution
+    cve_id: CVE-2023-36281
+    cve_url: https://github.com/advisories/GHSA-7gfq-f96f-g85j
+    detected_date: Dec 8
+    severity: critical
+    first_patched: 0.0.312
+  - name: Langchain vulnerable to arbitrary code execution via the evaluate function
+      in the numexpr library
+    cve_id: CVE-2023-39631
+    cve_url: https://github.com/advisories/GHSA-f73w-4m7g-ch9x
+    detected_date: Dec 8
+    severity: critical
+    first_patched: 0.0.308
+  - name: LangChain Server Side Request Forgery vulnerability
+    cve_id: CVE-2023-46229
+    cve_url: https://github.com/advisories/GHSA-655w-fm8m-m478
+    detected_date: Dec 8
+    severity: high
+    first_patched: 0.0.317
+  - name: Langchain Server-Side Request Forgery vulnerability
+    cve_id: CVE-2023-32786
+    cve_url: https://github.com/advisories/GHSA-6h8p-4hx9-w66c
+    detected_date: Dec 8
+    severity: high
+    first_patched: 0.0.329
+- name: mypy
+  description: Optional static typing for Python
+  package_url: https://pypi.org/project/mypy
+  version: '0.991'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20219/default_d4dd0466552a9776ca8535b869e22a3362790c94.png
+  detection_source_url: https://github.com/ramzimalhas/rags/blob/main/pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: Jerry Liu
+  last_updated_on: 2023-11-26 09:27:44.000000000 Z
+- name: pytest-asyncio
+  description: Pytest support for asyncio
+  package_url: https://pypi.org/project/pytest-asyncio
+  version: 0.21.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ramzimalhas/rags/blob/main/pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: Jerry Liu
+  last_updated_on: 2023-11-26 09:27:44.000000000 Z
+- name: typing-inspect
+  description: Runtime inspection utilities for typing module
+  package_url: https://pypi.org/project/typing-inspect
+  version: 0.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ramzimalhas/rags/blob/main/pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: Jerry Liu
+  last_updated_on: 2023-11-26 09:27:44.000000000 Z
