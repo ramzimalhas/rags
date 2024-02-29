@@ -4,11 +4,11 @@
 ramzimalhas/rags is built on the following main stack:
 
 - [Python](https://www.python.org) – Languages
-- [Streamlit](https://streamlit.io) – Machine Learning Tools
 - [GitHub Actions](https://github.com/features/actions) – Continuous Integration
+- [LLaMA](https://ai.meta.com/blog/large-language-model-llama-meta-ai/) – Large Language Models
 - [LangChain](https://github.com/hwchase17/langchain) – Large Language Model Tools
 - [LlamaIndex](https://gpt-index.readthedocs.io/en/latest/) – Large Language Model Tools
-- [LLaMA](https://ai.meta.com/blog/large-language-model-llama-meta-ai/) – Large Language Models
+- [Streamlit](https://streamlit.io) – Machine Learning Tools
 
 Full tech stack [here](/techstack.md)
 
@@ -19,11 +19,11 @@ Full tech stack [here](/techstack.md)
 ramzimalhas/rags is built on the following main stack:
 
 - <img width='25' height='25' src='https://img.stackshare.io/service/993/pUBY5pVj.png' alt='Python'/> [Python](https://www.python.org) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/11393/default_67e251b5860795095fe91618cf3ef8d09257469a.png' alt='Streamlit'/> [Streamlit](https://streamlit.io) – Machine Learning Tools
 - <img width='25' height='25' src='https://img.stackshare.io/service/11563/actions.png' alt='GitHub Actions'/> [GitHub Actions](https://github.com/features/actions) – Continuous Integration
+- <img width='25' height='25' src='https://img.stackshare.io/service/101870/default_110df704ee9867cb49e02a51b680222cc0b61823.png' alt='LLaMA'/> [LLaMA](https://ai.meta.com/blog/large-language-model-llama-meta-ai/) – Large Language Models
 - <img width='25' height='25' src='https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg' alt='LangChain'/> [LangChain](https://github.com/hwchase17/langchain) – Large Language Model Tools
 - <img width='25' height='25' src='https://img.stackshare.io/service/48791/default_350cf2fa84700345e34d9eef2ecc1aa29319e91a.jpg' alt='LlamaIndex'/> [LlamaIndex](https://gpt-index.readthedocs.io/en/latest/) – Large Language Model Tools
-- <img width='25' height='25' src='https://img.stackshare.io/service/101870/default_110df704ee9867cb49e02a51b680222cc0b61823.png' alt='LLaMA'/> [LLaMA](https://ai.meta.com/blog/large-language-model-llama-meta-ai/) – Large Language Models
+- <img width='25' height='25' src='https://img.stackshare.io/service/11393/default_67e251b5860795095fe91618cf3ef8d09257469a.png' alt='Streamlit'/> [Streamlit](https://streamlit.io) – Machine Learning Tools
 
 Full tech stack [here](/techstack.md)
 
@@ -34,7 +34,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [ramzimalhas/rags](https://github.com/ramzimalhas/rags)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|14<br/>Tools used|01/23/24 <br/>Report generated|
+|14<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -126,7 +126,7 @@ Full tech stack [here](/techstack.md)
 |:------|:------|:------|:------|:------|:------|
 |[black](https://pypi.org/project/black)|v22.12.0|11/26/23|Jerry Liu |MIT|N/A|
 |[isort](https://pypi.org/project/isort)|v5.11.4|11/26/23|Jerry Liu |MIT|N/A|
-|[langchain](https://pypi.org/project/langchain)|v0.0.305|11/26/23|Jerry Liu |N/A|[CVE-2023-39659](https://github.com/advisories/GHSA-prgp-w7vf-ch62) (Critical)<br/>[CVE-2023-36281](https://github.com/advisories/GHSA-7gfq-f96f-g85j) (Critical)<br/>[CVE-2023-39631](https://github.com/advisories/GHSA-f73w-4m7g-ch9x) (Critical)<br/>[CVE-2023-46229](https://github.com/advisories/GHSA-655w-fm8m-m478) (High)<br/>[CVE-2023-32786](https://github.com/advisories/GHSA-6h8p-4hx9-w66c) (High)|
+|[langchain](https://pypi.org/project/langchain)|v0.0.305|11/26/23|Jerry Liu |N/A|[CVE-2023-36281](https://github.com/advisories/GHSA-7gfq-f96f-g85j) (Critical)<br/>[CVE-2023-39631](https://github.com/advisories/GHSA-f73w-4m7g-ch9x) (Critical)<br/>[CVE-2023-39659](https://github.com/advisories/GHSA-prgp-w7vf-ch62) (Critical)<br/>[CVE-2023-32786](https://github.com/advisories/GHSA-6h8p-4hx9-w66c) (High)<br/>[CVE-2023-46229](https://github.com/advisories/GHSA-655w-fm8m-m478) (High)<br/>[CVE-2024-0243](https://github.com/advisories/GHSA-h9j7-5xvc-qhg5) (Low)|
 |[mypy](https://pypi.org/project/mypy)|v0.991|11/26/23|Jerry Liu |MIT|N/A|
 |[pytest-asyncio](https://pypi.org/project/pytest-asyncio)|v0.21.1|11/26/23|Jerry Liu |Apache-2.0|N/A|
 |[typing-inspect](https://pypi.org/project/typing-inspect)|v0.8.0|11/26/23|Jerry Liu |MIT|N/A|
